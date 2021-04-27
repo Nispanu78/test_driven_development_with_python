@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: Contacts
+Version: 1.0
+Summary: Manage your contacts.
+Home-page: https://pypi.org/project/Contacts/
+Author: Delvian Valentine
+Author-email: delvian.valentine@gmail.com
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/delvianv/Contacts
+Keywords: contacts
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Contacts
+
+## Manage your contacts.
+
+### Installation
+
+    ./setup.py install
+
+### Usage
+
+    contacts [OPTIONS] [SEARCH]
+
+    positional arguments:
+      SEARCH             search your contacts
+
+    optional arguments:
+      --new NAME EMAIL   create a contact
+      --edit NAME EMAIL  edit a contact
+      --delete NAME      delete a contact
+      --help             show this message
+      --version          show the version of the program
+
+### License
+
+Copyright (C) 2020  Delvian Valentine <delvian.valentine@gmail.com>
+
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under
+certain conditions.  See the GNU General Public License for more
+details <https://www.gnu.org/licenses/>
+
+
