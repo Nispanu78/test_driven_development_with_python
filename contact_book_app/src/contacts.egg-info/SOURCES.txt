@@ -1,0 +1,7 @@
+setup.py
+contacts/__init__.py
+contacts/__main__.py
+contacts.egg-info/PKG-INFO
+contacts.egg-info/SOURCES.txt
+contacts.egg-info/dependency_links.txt
+contacts.egg-info/top_level.txt
