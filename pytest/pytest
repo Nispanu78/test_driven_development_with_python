@@ -1,0 +1,7 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.7, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- c:\users\n.spanu_polsource\desktop\test_driven_development_with_python-main\venv\scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\pytest
+collecting ... collected 2 items / 2 deselected
+
+============================ 2 deselected in 0.02s ============================
