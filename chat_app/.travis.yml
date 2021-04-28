@@ -1,6 +1,6 @@
 language: python
 
-os: osx
+os: linux
 dist: xenial
 
 python:
