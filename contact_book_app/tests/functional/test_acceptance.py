@@ -88,11 +88,11 @@ def have_a_second_contact(contactbook, second):
     return second
 #
 #
-# @then("the output contains <listed_contacts> contacts")
-# def outputcontains(listed_contacts, capsys):
-#     expected_list = "".join([f"{c} 000\n" for c in listed_contacts.split(",")])
-#     out, _ = capsys.readouterr()
-#     assert out == expected_list
+@then("the output contains <listed_contacts> contacts")
+def outputcontains(listed_contacts, capsys):
+    expected_list = "".join([f"{c} 000\n" for c in listed_contacts.split(",")])
+    out, _ = capsys.readouterr()
+    assert out == expected_list
 #
 #
 @given("I have a contact book", target_fixture="contactbook")
