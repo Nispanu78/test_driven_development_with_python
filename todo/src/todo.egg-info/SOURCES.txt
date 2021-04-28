@@ -1,6 +1,8 @@
 setup.py
 todo/__init__.py
+todo/__main__.py
 todo/app.py
+todo/db.py
 todo.egg-info/PKG-INFO
 todo.egg-info/SOURCES.txt
 todo.egg-info/dependency_links.txt
