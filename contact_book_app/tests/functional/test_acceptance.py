@@ -70,10 +70,10 @@ def emptylist(contactbook):
     assert contactbook._contacts == []
 #
 #
-# @scenario("../acceptance/list_contacts.feature",
-#           "Listing Added Contacts")
-# def test_listing_added_contacts(capsys):
-#     pass
+@scenario("../acceptance/list_contacts.feature",
+          "Listing Added Contacts")
+def test_listing_added_contacts(capsys):
+    pass
 #
 #
 # @given("I have a first <first> contact")
