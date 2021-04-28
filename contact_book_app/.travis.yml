@@ -1,0 +1,19 @@
+language: python
+
+os: linux
+dist: xenial
+
+python:
+  - 3.7
+  - &mainstream_python 3.8
+  - nightly
+
+install:
+  - "pip install coveralls"
+  - "pip install -e src"
+
+script:
+  - "pytest -v --cov=contacts"
+
+after_success:
+  - coveralls
