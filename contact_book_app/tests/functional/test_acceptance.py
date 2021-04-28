@@ -65,9 +65,9 @@ def test_deleting_contacts():
     pass
 
 
-# @then("My contacts book is now empty")
-# def emptylist(contactbook):
-#     assert contactbook._contacts == []
+@then("My contacts book is now empty")
+def emptylist(contactbook):
+    assert contactbook._contacts == []
 #
 #
 # @scenario("../acceptance/list_contacts.feature",
