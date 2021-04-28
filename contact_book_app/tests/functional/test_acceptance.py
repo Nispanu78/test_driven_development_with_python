@@ -85,7 +85,7 @@ def have_a_first_contact(contactbook, first):
 @given("I have a second <second> contact")
 def have_a_second_contact(contactbook, second):
     contactbook.add(second, "000")
-#     return second
+    return second
 #
 #
 # @then("the output contains <listed_contacts> contacts")
