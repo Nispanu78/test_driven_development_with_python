@@ -1,0 +1,43 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\contact_book_app\src
+cmd: 'c:\users\n.spanu_polsource\desktop\test_driven_development_with_python-main\venv\scripts\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\contact_book_app\.tox\dist'
+running sdist
+running egg_info
+writing contacts.egg-info\PKG-INFO
+writing dependency_links to contacts.egg-info\dependency_links.txt
+writing top-level names to contacts.egg-info\top_level.txt
+reading manifest file 'contacts.egg-info\SOURCES.txt'
+writing manifest file 'contacts.egg-info\SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating contacts-0.0.0
+creating contacts-0.0.0\contacts
+creating contacts-0.0.0\contacts.egg-info
+copying files to contacts-0.0.0...
+copying setup.py -> contacts-0.0.0
+copying contacts\__init__.py -> contacts-0.0.0\contacts
+copying contacts\__main__.py -> contacts-0.0.0\contacts
+copying contacts.egg-info\PKG-INFO -> contacts-0.0.0\contacts.egg-info
+copying contacts.egg-info\SOURCES.txt -> contacts-0.0.0\contacts.egg-info
+copying contacts.egg-info\dependency_links.txt -> contacts-0.0.0\contacts.egg-info
+copying contacts.egg-info\top_level.txt -> contacts-0.0.0\contacts.egg-info
+Writing contacts-0.0.0\setup.cfg
+creating 'C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\contact_book_app\.tox\dist\contacts-0.0.0.zip' and adding 'contacts-0.0.0' to it
+adding 'contacts-0.0.0'
+adding 'contacts-0.0.0\contacts'
+adding 'contacts-0.0.0\contacts.egg-info'
+adding 'contacts-0.0.0\PKG-INFO'
+adding 'contacts-0.0.0\setup.cfg'
+adding 'contacts-0.0.0\setup.py'
+adding 'contacts-0.0.0\contacts\__init__.py'
+adding 'contacts-0.0.0\contacts\__main__.py'
+adding 'contacts-0.0.0\contacts.egg-info\dependency_links.txt'
+adding 'contacts-0.0.0\contacts.egg-info\PKG-INFO'
+adding 'contacts-0.0.0\contacts.egg-info\SOURCES.txt'
+adding 'contacts-0.0.0\contacts.egg-info\top_level.txt'
+removing 'contacts-0.0.0' (and everything under it)
