@@ -1,0 +1,7 @@
+setup.py
+httpclient/__init__.py
+httpclient/__main__.py
+httpclient.egg-info/PKG-INFO
+httpclient.egg-info/SOURCES.txt
+httpclient.egg-info/dependency_links.txt
+httpclient.egg-info/top_level.txt
