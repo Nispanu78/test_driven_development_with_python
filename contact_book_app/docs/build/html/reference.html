@@ -33,6 +33,36 @@
             
   <div class="section" id="code-reference">
 <h1>Code Reference<a class="headerlink" href="#code-reference" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="contacts.Application">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">contacts.</span></code><code class="sig-name descname"><span class="pre">Application</span></code><a class="headerlink" href="#contacts.Application" title="Permalink to this definition">¶</a></dt>
+<dd><p>Manages a contact book serving the provided commands.
+The contact book itself is saved in a contacts.json file
+in the same directory where the application is started
+and it’s loaded back on every new run.
+A contact is composed by any name followed by a valid
+phone number.</p>
+<dl class="py method">
+<dt id="contacts.Application.run">
+<code class="sig-name descname"><span class="pre">run</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#contacts.Application.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run a provided command.
+:param str text: The string containing the command to run.
+Takes the command to run as a string as it would
+come from the shell, parses it and runs it.
+Each command can support zero or multiple arguments
+separate by an empty space.
+Currently supported commands are:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>add</p></li>
+<li><p>del</p></li>
+<li><p>ls</p></li>
+</ul>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
 </div>
 
 
