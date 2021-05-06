@@ -1,0 +1,7 @@
+setup.py
+wsgiwebtest/__init__.py
+wsgiwebtest/__main__.py
+wsgiwebtest.egg-info/PKG-INFO
+wsgiwebtest.egg-info/SOURCES.txt
+wsgiwebtest.egg-info/dependency_links.txt
+wsgiwebtest.egg-info/top_level.txt
