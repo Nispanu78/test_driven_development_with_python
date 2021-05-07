@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1 (Python 3.8.7 on win32)" generated="20210507 13:29:07.617" rpa="false" schemaversion="2">
+<suite id="s1" name="Hellotest" source="C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\robot_framework\hellotest.robot">
+<test id="s1-t1" name="Hello World">
+<kw name="Run" library="OperatingSystem">
+<arg>echo "Hello World" &gt; hello.txt</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<msg timestamp="20210507 13:29:07.648" level="INFO">Running command 'echo "Hello World" &gt; hello.txt'.</msg>
+<status status="PASS" starttime="20210507 13:29:07.648" endtime="20210507 13:29:07.664"/>
+</kw>
+<kw name="Get File" library="OperatingSystem">
+<var>${filecontent}</var>
+<arg>hello.txt</arg>
+<doc>Returns the contents of a specified file.</doc>
+<msg timestamp="20210507 13:29:07.664" level="INFO" html="true">Getting file '&lt;a href="file://C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\robot_framework\hello.txt"&gt;C:\Users\n.spanu_polsource\Desktop\test_driven_development_with_python-main\robot_framework\hello.txt&lt;/a&gt;'.</msg>
+<msg timestamp="20210507 13:29:07.664" level="INFO">${filecontent} = "Hello World" 
+</msg>
+<status status="PASS" starttime="20210507 13:29:07.664" endtime="20210507 13:29:07.664"/>
+</kw>
+<kw name="Should Contain" library="BuiltIn">
+<arg>${filecontent}</arg>
+<arg>Bye</arg>
+<doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
+<msg timestamp="20210507 13:29:07.664" level="FAIL">'"Hello World" 
+' does not contain 'Bye'</msg>
+<status status="FAIL" starttime="20210507 13:29:07.664" endtime="20210507 13:29:07.664"/>
+</kw>
+<status status="FAIL" starttime="20210507 13:29:07.648" endtime="20210507 13:29:07.664">'"Hello World" 
+' does not contain 'Bye'</status>
+</test>
+<status status="FAIL" starttime="20210507 13:29:07.617" endtime="20210507 13:29:07.664"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Hellotest">Hellotest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
